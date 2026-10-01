@@ -18,7 +18,7 @@ components/flowiq2200/        the external component
 
 ## Setup
 
-1. Copy `watermeter.yaml` and the `components/` folder into your ESPHome config folder (in Home Assistant: `/config/esphome/`).
+1. Copy `wasserzaehler.yaml` and the `components/` folder into your ESPHome config folder (in Home Assistant: `/config/esphome/`).
 2. fill in:
    - `flowiq_meter_id`: the 8-digit meter number, **quoted**. It's the same bytes you had in `credentials.h`: `{ 0x53, 0x48, 0x08, 0x78 }` → `"53480878"`.
    - `flowiq_aes_key`: the 32-hex-character AES key from your utility, **quoted**.
