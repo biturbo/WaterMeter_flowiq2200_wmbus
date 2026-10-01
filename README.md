@@ -9,7 +9,7 @@ Same hardware and AES decryption as the original. Telegrams are decoded with the
 ## Files
 
 ```
-watermeter.yaml               device config (edit names/pins here)
+wasserzaehler.yaml            device config (edit names/pins here)
 components/flowiq2200/        the external component
   __init__.py                 YAML schema + code generation
   flowiq2200.h/.cpp           CC1101 driver + telegram handling
