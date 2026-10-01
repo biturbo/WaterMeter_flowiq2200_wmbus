@@ -1,5 +1,8 @@
 # WaterMeter_flowiq2200_wmbus
 WaterMeter-FlowIQ2200 (ESP32 + CC1101 + Home Assistant)
+
+Hardware: LOLIN D32 with CC1101
+
 # FlowIQ 2200 for ESPHome
 
 An ESPHome port of [erikxson/watermeter-flowiq2200](https://github.com/erikxson/watermeter-flowiq2200): read a **Kamstrup FlowIQ 2200** water meter over wM-Bus (mode C, 868.95 MHz) with an **ESP32 + CC1101**, and get the values straight into Home Assistant via the ESPHome integration.
