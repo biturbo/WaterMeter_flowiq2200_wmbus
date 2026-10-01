@@ -2,7 +2,7 @@
 # Ported from https://github.com/erikxson/watermeter-flowiq2200
 #
 # Folder layout (put both next to each other in your ESPHome config folder):
-#   watermeter.yaml
+#   wasserzaehler.yaml
 #   components/flowiq2200/...
 
 esphome:
